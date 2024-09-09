@@ -1,18 +1,23 @@
 @media(max-width: 45.6rem ){
+    html{
+        font-size: 75%;
+    }
+
     .all-contents{
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
-
     }
 
     .showing-img{
         height: 200px;
     }
 
-    body{
-        font-size: 62.5%;
-    }
+}
 
+@media(max-width: 25rem){
+    html{
+        font-size: 60%;
+    }
 }

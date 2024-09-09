@@ -44,7 +44,6 @@ html{
 
 body{
     color: var(--color-dark--1);
-    font-size: 62.5%;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
     background-color: var(--color-dark--2);
@@ -155,7 +154,7 @@ li{
     background-color: var(--color-dark--1);
     color: var(--color-light--2);
     padding: 8px 15px;
-    font-size: 12px;
+    font-size: 0.8rem;
     cursor: pointer;
     transition: 0.4s all;
 }
@@ -175,7 +174,7 @@ li{
     flex-direction: column;
     gap: 0.8rem;
     border-radius: 20px;
-    box-shadow: 0.8rem 2em 4rem rgba(0,0,0,0.5);
+    box-shadow: 0.8rem 2rem 4rem rgba(0,0,0,0.5);
     display:none;
 }
 
