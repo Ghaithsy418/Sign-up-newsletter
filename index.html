@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="./assets/images/favicon-32x32.png" />
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/query.css">
+    <script defer src="./script.js"></script>
+    <title>Newsletter-sign-up</title>
+  </head>
+  <body>
+    <container class="all-contents">
+      <div class="sign-up-part">
+        <h1>Stay updated!</h1>
+        <p class="text first-text">Join 60,000+ product managers receiving monthly updates on:</p>
+        <ul>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 21 21"><g fill="none"><circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155"/><path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8"/></g></svg>
+            <p class="text">Product discovery and building what matters</p>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 21 21"><g fill="none"><circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155"/><path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8"/></g></svg> 
+            <p class="text">Measuring to ensure updates are a success</p>
+          </li>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 21 21"><g fill="none"><circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155"/><path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8"/></g></svg>
+            <p class="text">And much more!</p>
+          </li>
+        </ul>
+        <form class="email-form" action="#">
+          <div class="titles-form">
+            <label class="title-email-form">Email address</label>
+            <label class="title-email-form Error">valid email required</label>
+          </div>
+          <input
+            class="email-input"
+            type="email"
+            placeholder="email@company.com"
+          />
+          <button class="btn subscribe-btn">Subscribe to monthly newsletter</button>
+        </form>
+      </div>
+      <div class="image-part">
+        <img src="./assets/images/illustration-sign-up-desktop.svg" class="showing-img"/>
+      </div>
+    </container>
+    <!-- successfully subscribed -->
+    <div class="success-container">
+      <svg class="success-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 21 21"><g fill="none"><circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155"/><path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8"/></g></svg> 
+      <h2>Thanks for subscribing!</h2>
+      <p class="text">A confirmation email has been sent to <span class="email-address">ash@loremcompany.com</span> Please open it and click the button inside to confirm your subscription</p>
+      <button class="success-btn btn">Dismiss message</button>
+    </div>
+  </body>
+</html>
+
+
+
